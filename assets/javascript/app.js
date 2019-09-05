@@ -18,7 +18,7 @@ var firebaseConfig = {
   $('#submit').on('click', function(){
 
     var trainName = $('#train-name').val().trim();
-    var destination = $('#destination').val().trim();
+    var destination = $('#destination-input').val().trim();
     var firstTrain = moment($('#first-train-time').val().trim(), "HH:mm").format("X");
     var frequency = $('#frequency').val().trim();
 
