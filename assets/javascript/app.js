@@ -61,6 +61,7 @@ database.ref().on('child_added', function(childSnapshot){
 
   // Current time
   var currentTime = moment();
+  console.log(moment(currentTime).format('HH:mm'));
   
   // Difference between the times
   var diffTime = moment().diff(moment.unix(firstTrain), "minutes");
