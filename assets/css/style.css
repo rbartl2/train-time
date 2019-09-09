@@ -1,3 +1,19 @@
 body{
+    /* background-color: rgb(3, 3, 65); */
+    background-image: url(../images/stripes-light.png);
+}
+
+.card-header{
+    background-color: rgb(3, 3, 65);;
+    border-color: rgb (3, 3, 65);
+    color: aliceblue;
+}
+
+.card{
+    border: 1px solid rgb(3, 3, 65);
+    background: rgb(255, 255, 255, 0.2);
+}
+
+.jumbotron{
     background-color: rgb(3, 3, 65);
 }
